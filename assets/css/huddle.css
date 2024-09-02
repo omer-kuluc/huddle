@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.hero-img {
+  background-image: url("/assets/img/purple-background.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  display: inline-block;
+  height: 100%;
+  background-position: center;
+}
+
+.logo {
+  width: 200px;
+  padding-top: 60px;
+}
+
+.chatbox-img {
+  float: left;
+  padding-top: 200px;
+  padding-left: 80px;
+  padding-bottom: 108px;
+}
+
+.introduction {
+  color: white;
+  position: relative;
+  padding-left: 871px;
+  margin-top: 232px;
+  margin-right: 40px;
+}
+
+h1 {
+  line-height: 60px;
+  font-family: "Poppins";
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.intro-text {
+  font-family: "Open Sans";
+  font: size 18px;
+  line-height: 27px;
+}
+
+button {
+  cursor: pointer;
+  width: 200px;
+  height: 56px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 30px;
+  border: none;
+}
+
+.button {
+  text-decoration: none;
+  color: #684bb1;
+}
+
+.social-media {
+  position: absolute;
+  right: 0;
+  bottom: 20;
+}
+
+.social-media img {
+  padding-top: 200px;
+  padding-left: 10px;
+  width: 40px;
+}
